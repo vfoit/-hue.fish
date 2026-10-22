@@ -1,0 +1,20 @@
+# Local Python experiments (not part of this fish project)
+pyproject.toml
+uv.lock
+.python-version
+src/
+.venv/
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# fish universal variables (contain HUE_API_KEY)
+fish_variables
+
+# Editor and tool settings
+.vscode/
+.idea/
+.claude/settings.local.json
